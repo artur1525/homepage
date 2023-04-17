@@ -1,0 +1,12 @@
+.deleteVid {
+    font-size: 13px;
+    color: hsla(0, 0%, 13%, 0.911);
+    background-color: rgb(209, 209, 209);
+    padding: 5px 10px;
+    border: none;
+  }
+
+  .smallText {
+    color: #00000079;
+    font-size: 13px;
+  }

@@ -1,0 +1,22 @@
+.container__naglowek {
+    font-size: 35px;
+    font-display: 50px;
+    color: #253d8be5;
+    text-shadow: #00000079;
+  }
+  
+  .container__naglowekDwa {
+    color: #253d8be5;
+  }
+  
+  .naglowekTrzy {
+    font-size: 25px;
+    text-align: center;
+    color: #253d8be5;
+  }
+  
+  .naglowekPiec {
+    color: #192c6de5;
+    font-size: 20px;
+  }
+  

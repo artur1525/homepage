@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="js/script.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@200&display=swap"
+      rel="stylesheet"/>   
+    <title>Artur Regucki: o prędkości Internetu</title>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/container.css" rel="stylesheet" />
+    <link href="CSS/section.css" rel="stylesheet" />
+    <link href="CSS/table.css" rel="stylesheet" />
+    <link href="CSS/navigation.css" rel="stylesheet" />
+    <link href="CSS/footer.css" rel="stylesheet" />
+    <link href="CSS/list.css" rel="stylesheet" />
+    <link href="CSS/video.css" rel="stylesheet" />
+    <link href="CSS/text.css" rel="stylesheet" />
+    
+  </head>
+
+  <body class="body">
+    <div class="container">
+    <section id="pierwsza-sekcja">
+      <button class="button">
+        Włącz <span class="js-themeName">ciemny</span> motyw
+      </button>
+      <br />
+
+      <nav>
+        <ul class="list">
+            <li><a class="list__link" href="#tabela">Przewiń do tabeli</a></li>
+            <li><a class="list__link" href="#sectionMovie">Przewiń do filmu</a></li>
+            <li><a class="list__link" href="#podsumowanie">Przewiń do podsumowania</a></li>
+        </ul>
+    </nav>
+
+    <header class="picture">  
+    <img width="790"
+        src="https://fiberlink.pl/app/uploads/2022/03/predkosc-internetu-blog-post-840x480.jpg"
+        alt="Wyobrażenie Internetu światłowodowego."
+      ></header>
+
+      <h1 class="container__naglowek">Trochę o prędkości Internetu</h1>
+      <p class="tekst">Czy zastanawialiście się kiedyś jak to jest, że jeszcze kilka lat temu do zwiedzenia Internetu i grania w gry online wystarczała nam prędkość na poziomie 10 Mb/s, a teraz wstyd się przyznać przed znajomymi gdy nie ma się światłowodowej prędkości co najmniej 300 Mb/s?
+        </p>
+    </section>
+    
+      <h2 class="container__naglowekDwa">
+        Krótko o prędkości łącza internetowego i odpowiedź na pytanie "Jakiej
+        Prędkości na prawdę potrzebujesz?"
+      </h2>
+
+      <section id="tabela">
+      <div>
+        <table class="table table__container">
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="col">
+              Prędkość łącza (download)
+            </th>
+            <th class="table__cell table__header" scope="col">
+              Czas pobierania 1 GB danych
+            </th>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell table__header">50 Mb/s</td>
+            <td class="table__cell">2 min 44 sek</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell table__header">100 Mb/s</td>
+            <td class="table__cell">1 min 22 sek</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell table__header">300 Mb/s</td>
+            <td class="table__cell">27 sekund</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell table__header">500 Mb/s</td>
+            <td class="table__cell">18 sekund</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell table__header">1 Gb/s</td>
+            <td class="table__cell">9 sekund</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <p class="tekst">Prawda jest taka, że dla większości domowych użytkowników Internetu, wystarczającą prędkością będzie około 100 Mb/s. Taka prędkość pozwoli na sprawne poruszenie się po stronach WWW, odbierać i wysyłać wiadomości e-mail, grać w gry online, prowadzić wideorozmowy i konferencje oraz oglądać filmy i seriale online.</p>
+    <br>
+
+    <h3 class="naglowekTrzy">
+      <section id="sectionMovie">
+      <p>Jeśli aktualnie posiadasz prędkość internetu co najmniej 50 Mb/s i aktualnie z dostępu do sieci korzystasz tylko Ty to włącz poniższy film w najwyższej jakości i sprawdź czy musisz czekać aby oglądać, ponieważ trwa buforowanie czy od razu wideo jest odtwarzane.</p>
+      <p>
+        (jakość 8K w 60 klatkach wymaga dobrego sprzętu i łącza internetowego minimum 50 Mbps):
+      </p>
+   
+      <iframe
+        class="js-film"
+        width="616"
+        height="347"
+        src="https://www.youtube.com/embed/m1W7WOmEmcE"
+        title="Film w 8K"
+        frameborder="10"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+
+      <p class="smallText">
+        Jeśli chcesz usunąć film, kliknij w poniższy przycisk:
+      </p>
+      <button class="js-usunFilm deleteVid">Usuń film</button>
+    </h3>
+    </section>
+    <br>
+
+    <section id="podsumowanie">
+    <h4 class="naglowekTrzy">Podsumowując... </h4>
+    <p class="tekst">Odpowiedź na pytanie, które padło na początku tej strony musicie znaleźć sami. Potrzeby każdego z nas są sztucznie wyolbrzymiane przez reklamy. Aktualna technologia światłowodowa pozwala na przesyłanie ogromnych ilości danych, natomiast uważam, że domowe potrzeby korzystania z sieci Internet zaspokoi dostęp o prędkości 100 Mb/s.
+    </p>
+    </section>
+    <br> <br>
+    <div class="naglowekPiec">A co zrobić gdy mamy słabe łącze? Jest kilka rzeczy, które można zrobić by poprawić pracę w pojedynczym programie czy aplikacji.
+      </div>
+      <div>
+      <ol class="list2">
+        <li>wyłączyć przesyłanie obrazu, ponieważ zabiera największą część transferu</li>
+        <li>wyłączyć synchronizację w Dropbox, One Drive, Google Drive lub innej aplikacji do synchronizacji plików</li>
+        <li>odłączyć inne urządzenia podłączone do tego samego routera wykorzystujące łącze</li>
+        <li>wyłączyć aplikacje, wykorzystujące streaming np. TIDAL, Spotify, YouTube, Netflix itp.</li>
+        <li>wyłączyć automatyczne pobieranie aktualizacji w różnych programach</li>
+        <li>wyłączyć inne programy, mogące wykorzystywać łącze</li>
+    </ul>
+  </div>
+  <div class="UP">  
+  <a href="#pierwsza-sekcja">Do góry!</a>
+    </div>
+    <footer class="footer">
+      Copyright © 2022 by Artur Regucki.
+    </footer>
+  </div>
+  </body>
+</html>

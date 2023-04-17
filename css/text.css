@@ -1,0 +1,13 @@
+.tekst {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  .krotkiOpis {
+    color: #000000;
+  }
+  
+  .redText {
+    color: red;
+  }

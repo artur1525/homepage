@@ -1,0 +1,19 @@
+.list__link:link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .list__link:visited {
+    color: #000;
+  }
+  
+  .list__link:hover {
+    color: #4416b0;
+  }
+  
+  .list__link:active {
+    color: #4416b0;
+    font-size: 17px;
+    margin: 5px;
+    outline: none;
+  }

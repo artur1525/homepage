@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Lato", sans-serif;
+  background-color: #eee;
+  max-width: 1200px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 8px #bbb;
+}
+
+.body--dark {
+  color: rgb(223, 221, 221);
+  background: rgb(104, 104, 104);
+}
+
+.button {
+  font-size: 13px;
+  color: hsla(0, 0%, 13%, 0.911);
+  background-color: rgb(209, 209, 209);
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.picture {
+  text-align: center;
+  margin: 2px;
+}
+
+.UP {
+  text-align: right;
+  color: #4416b0;
+  font-size: 17px;
+  margin: 5px;
+}
